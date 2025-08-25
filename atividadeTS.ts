@@ -1,7 +1,10 @@
+
 interface Clima{
     temperature: string;
     wind: string;
     description: string;
+    forecast: { day: string; temperature: string; wind: string; }[];//esse coclhete é pq ele vai ser
+                                                                    //um array de 3 dias de previsao.
 }
 
 
